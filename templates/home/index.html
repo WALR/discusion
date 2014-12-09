@@ -90,7 +90,7 @@
 				    </a>
 				  </li>
 				</ul>
-				{% for question, tags, answers in object_list  %}
+				{% for question, tags in object_list  %}
 				<h4><a href="/pregunta/{{question.slug}}">{{question.title}}</a> <small>{{question.user}}</small><span><img src="{{question.user.avatar}}" class="foto-perfil"></span></h4>
 				<blockquote class="bloquesito">
 				  <p class="bg-info bg-info-customize">Vistos <span>0</span></p>
