@@ -1,10 +1,10 @@
 from .base import *
 
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 DATABASES = {
     'default': {
@@ -19,6 +19,7 @@ DATABASES = {
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR.child('static')]
+STATIC_ROOT = 'staticfiles'
 
 SOCIAL_AUTH_FACEBOOK_KEY = '1010466688980093'
 SOCIAL_AUTH_FACEBOOK_SECRET = 'df673bf66276aa0cff6b85a7697395cd'
