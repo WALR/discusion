@@ -9,10 +9,10 @@ ALLOWED_HOSTS = []
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Discusiones',
-        'USER' : 'cursodjango',
-        'PASSWORD' : '123',
-        'HOST' : 'localhost',
+        'NAME': 'dee5f8d4q9lu6u',
+        'USER' : 'rydrhratkcssoo',
+        'PASSWORD' : '8tmxtWDpPKC_fbw1IFXDNfbmeD',
+        'HOST' : 'ec2-54-197-240-180.compute-1.amazonaws.com',
         'PORT' : '5432',
     }
 }
